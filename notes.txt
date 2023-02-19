@@ -1,2 +1,21 @@
 cuborto----->footer
 disrupt----->menu
+
+
+
+steps to contribute
+//at the beggining
+
+fork the repo
+clone the repo in your local desktop
+make new branch of your name (and what else your want)
+add all changes to that new branch
+push that branch to the origin
+
+//after first created
+first make sure to be in latest version to do that run command
+> git push origin main
+and than procedd further
+
+****** IMPORTANT NOTE 
+before starting to work in run > git pull origin main command to get all the latest changes
