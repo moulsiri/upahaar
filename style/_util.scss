@@ -11,13 +11,57 @@ main{
     width:100%;
     min-height: inherit;
 }
-@mixin flexCenter{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+//colors
+:root{
+    --primTxt:#2C1B27;
+    --secTxt:#5A4A55;
+    --clr1:#D0403F;
+    --clr2:#054B66;
+    --clr3:#E58924;
+    --clr4:#D8C19A;
 }
 @mixin mobile($size){
     @media (max-width:$size){
         @content;
     }
 }
+
+@font-face {
+    font-family: "forgue";
+    src: url('../assets/fonts/Unnamed-Regular.otf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Samarkan";
+    src: url('../assets/fonts/SAMAN__.TTF');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Novante';
+    src: url('../assets/fonts/Novante.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-SemiBold.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+
+//fonts
+$genFont:'Montserrat';
+$logo:'Samarkan';
+$secFont:'Novante';
+$headingFont:'forgue';
+
