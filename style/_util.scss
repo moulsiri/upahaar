@@ -12,6 +12,22 @@ main{
     min-height: inherit;
 }
 
+
+// footer mixin
+@mixin flexprop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin positon($tp,$lt){
+    position: absolute;
+    top: $tp;
+    left: $lt;
+}
+// end footer
+
+
 //colors
 :root{
     --primTxt:#2C1B27;
