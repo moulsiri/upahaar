@@ -1,7 +1,15 @@
+
+//fonts
+$genFont:'Montserrat';
+$logo:'Samarkan';
+$secFont:'Novante';
+$headingFont:'forgue';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $genFont;
 }
 html,body{
     width:100%;
@@ -9,7 +17,7 @@ html,body{
 }
 main{
     width:100%;
-    min-height: inherit;
+    min-height: 100vh;
 }
 
 
@@ -75,9 +83,4 @@ main{
 }
 
 
-//fonts
-$genFont:'Montserrat';
-$logo:'Samarkan';
-$secFont:'Novante';
-$headingFont:'forgue';
 
