@@ -67,10 +67,10 @@ footer {
                     height: 35vh;
 
                     >h1{
-                      font-size: 1.7vw;
+                      font-size: 1.6vw;
                       font-family: 'Montserrat';
                       margin-bottom: 3rem;
-                      font-weight: 100;
+                      font-weight: 400;
                     }
 
                     >h4{
@@ -79,8 +79,8 @@ footer {
 
                         >a{
                           text-decoration: none;
-                          font-size: 0.7vw;
-                          color: rgba(255, 255, 255, 0.575);
+                          font-size: 0.9vw;
+                          color: rgba(255, 255, 255, 0.87);
                           font-family: 'Montserrat';
                           font-weight: 100;
                           letter-spacing: 0.1rem;
@@ -115,7 +115,7 @@ footer {
             // margin-top: 1rem;
             font-size: 0.9vw;
             font-weight: 100;
-            color: rgba(255, 255, 255, 0.575);
+            color: rgba(255, 255, 255, 0.753);
             font-family: 'Montserrat';
         }
     }

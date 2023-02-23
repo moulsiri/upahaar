@@ -1,0 +1,236 @@
+@import './util';
+
+#showcase{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    // background-color: yellow;
+    @include mobile(600px){
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+    }
+    #m-mainContainer{
+        width: 50%;
+        min-height: inherit;
+        // background-color: rgb(0, 225, 255);
+        position: relative;
+        @include mobile(600px){
+            width: 100%;
+            min-height: 50vh;
+        }
+        #m-mtexture{
+            width: 50%;
+            // background-color: aquamarine;
+            position: absolute;
+            left: 10vw;
+            bottom: 0;
+            height:90vmin;
+        
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        #m-img-container{
+            width: 25vmax;
+            height: 25vmax;
+            // background-color: black;
+            position: absolute;
+            right:-20%;
+            z-index: 9;
+            bottom:0;
+            overflow: hidden;
+            @include mobile(600px){
+                right: 0;
+            }
+            .m-pics{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top:100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        #m-video-container{
+            width: 75%;
+            height: 70vmin;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            right:-10%;
+            top:20%;
+            box-shadow: -10px 0 10px #0000001e;
+            @include mobile(600px){
+                top:10%;
+            }
+            #m-svg3{
+                position: absolute;
+                right:-10%;
+                top:-10%;
+                z-index: 9;
+            }
+            #m-svg4{
+                position: absolute;
+                left:-10%;
+                bottom:-10%;
+            }
+            @include mobile(600px){
+                width: 55%;
+                right: 30%;
+            }
+
+        }
+
+    }
+    #m-reel-wrapper{
+        width: 80%;
+        height: 60vh;
+        position: absolute;
+        right:0;
+        top:25%;
+        overflow: hidden;
+        @include mobile(600px){
+            height: 35vh;
+            top:56%;
+        }
+    }
+    #videos-reel-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .vElm{
+            width: 20%;
+            height: inherit;
+            opacity: .1;
+            flex-shrink: 0;
+            margin-right: 2em;
+            // background-color: black;
+            @include mobile(600px){
+                width: 50%;
+            }
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            &:first-child{
+               opacity: 1;
+            }
+        }
+    }
+    #m-mainRt{
+        width: 50%;
+        height: inherit;
+        // background-color: pink;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 10vw;
+        position: relative;
+        z-index: 2;
+        padding-top: 2vh;
+      
+        #m-mainHeading{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 1em;
+            @include mobile(600px){
+                font-size: 10px;
+            }
+            #m-tag{
+                display: flex;
+                align-items: center;
+
+                width: 60%;
+                // background-color: yellow;
+                margin-bottom: 1em;
+                #m-tLine{
+                    width: 30%;
+                    height: .1em;
+                    background-color: var(--primTxt);
+                    margin-right: 1em;
+                }
+                h6{
+                    text-transform: uppercase;
+                    font-family: $genFont;
+                    font-size: .5em;
+
+                }
+            }
+            h3{
+                // margin-top: 1em;
+                font-family: $secFont;
+                font-size: 1.7em;
+            }
+        }
+        #m-rt-txt{
+            // background-color: rgba(255, 0, 0, 0.281);
+            width: 80%;
+            height: 50vh;
+            margin-top: 20vh;
+            position: relative;
+            margin-right: 8vh;
+            overflow: hidden;
+            @include mobile(600px){
+                margin-top: 5vh;
+                margin-right: 0;
+                height: 35vh;
+
+            }
+            .rt-txt-elm{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top:100%;
+                left: 0;
+                // background-color: yellow;
+                &:nth-child(1){
+                    top:0;
+                    left: 0;
+                }
+                @include mobile(600px){
+                  font-size: 10px;
+                }
+            }
+            
+            h2{
+                text-align: right;
+                font-family: $headingFont;
+                font-size: 2em;
+                color:var(--primTxt);
+                line-height: 1.2em;
+                @include mobile(600px){
+                    font-size:5vw;
+                    line-height: 5vw;
+                  }
+            }
+            p{
+                text-align: right;
+                color:var(--primTxt);
+                font-family: $genFont;
+                font-size: .7em;
+                line-height: 1.6em;
+                margin-top: 2em;
+            }
+            #m-svg5{
+                position:absolute;
+                bottom:40%;
+                left:20%;
+            }
+        }
+        @include mobile(600px){
+            width: 100%;
+            height: fit-content;
+        }
+    }
+ 
+}

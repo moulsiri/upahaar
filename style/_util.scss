@@ -15,11 +15,17 @@ html,body{
     width:100%;
     height: 100%;
 }
+body {
+    overflow-x: hidden;
+  }
 main{
     width:100%;
-    min-height: 100vh;
+    // min-height: 100vh;
 }
-
+svg{
+    width: 10vmax;
+    height: 10vmax;
+}
 
 // footer mixin
 @mixin flexprop{
@@ -44,6 +50,7 @@ main{
     --clr2:#054B66;
     --clr3:#E58924;
     --clr4:#D8C19A;
+    --gold:#94892B;
 }
 @mixin mobile($size){
     @media (max-width:$size){

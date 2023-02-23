@@ -1,0 +1,97 @@
+@import './util';
+
+//initial animation stuffs
+#motoTxt{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size: 1em;
+    .a-abs-child{
+      perspective: 400px;
+    }
+    
+}
+#startAnimContainer{
+    width: 30vmax;
+    height: 50vmin;
+    overflow: hidden;
+    position: relative;
+    // background-color: yellow;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+}
+
+#m-texture{
+    width: 100%;
+    height: 2vh;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+#a-gift-container{
+    position: absolute;
+    width: 15vmax;
+    height: 15vmax;
+    // background-color: black;
+    overflow: hidden;
+    left: -25%;
+    display: none;
+    bottom: 0;
+    .a-giftCard{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 100%;
+        // background-color: yellow;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+       
+    }
+}
+.a-parent{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    // background-color: red;
+
+    
+}
+.a-child{
+    display: block;
+    // background-color: yellow;
+}
+
+.a-abs-child{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #fff;
+    top:-100%;
+
+    position: absolute;
+    z-index: 9;
+}
+
+
+svg{
+    path{
+        fill: transparent;
+        stroke: #94892b;
+        stroke-dasharray:0px;
+        stroke-dashoffset: 0px;
+        stroke-width: .03em;
+
+        
+    }
+}
