@@ -18,6 +18,7 @@ footer {
   background-color: #054b66;
   @include flexprop;
   overflow-x: hidden;
+  
 
   #left{
     position: relative;
@@ -126,7 +127,7 @@ footer {
     height:100%;
 
     >img{
-      height: 80vh;
+      height: 100vh;
       object-fit: contain;
       filter: drop-shadow(20px 10px 10px rgba(27, 26, 26, 0.801));
     }

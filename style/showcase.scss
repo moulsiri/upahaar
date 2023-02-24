@@ -63,7 +63,7 @@
         #m-video-container{
             width: 75%;
             height: 70vmin;
-            background-color: rgb(255, 255, 255);
+            background-color: var(--bg);
             position: absolute;
             right:-10%;
             top:20%;
@@ -76,11 +76,25 @@
                 right:-10%;
                 top:-10%;
                 z-index: 9;
+                path{
+                    fill: transparent;
+                    stroke: #94892b;
+                    stroke-dasharray:0px;
+                    stroke-dashoffset: 0px;
+                    stroke-width: .03em;
+                }
             }
             #m-svg4{
                 position: absolute;
                 left:-10%;
                 bottom:-10%;
+                path{
+                    fill: transparent;
+                    stroke: #94892b;
+                    stroke-dasharray:0px;
+                    stroke-dashoffset: 0px;
+                    stroke-width: .03em;
+                }
             }
             @include mobile(600px){
                 width: 55%;
@@ -156,13 +170,15 @@
                 #m-tLine{
                     width: 30%;
                     height: .1em;
-                    background-color: var(--primTxt);
+                    background-color: var(--action);
                     margin-right: 1em;
                 }
                 h6{
                     text-transform: uppercase;
                     font-family: $genFont;
                     font-size: .5em;
+                    color:var(--action);
+
 
                 }
             }
@@ -170,6 +186,9 @@
                 // margin-top: 1em;
                 font-family: $secFont;
                 font-size: 1.7em;
+                color:var(--headingClr);
+                font-weight: 100;
+
             }
         }
         #m-rt-txt{
@@ -215,7 +234,7 @@
             }
             p{
                 text-align: right;
-                color:var(--primTxt);
+                color:var(--secTxt);
                 font-family: $genFont;
                 font-size: .7em;
                 line-height: 1.6em;
@@ -225,6 +244,13 @@
                 position:absolute;
                 bottom:40%;
                 left:20%;
+                path{
+                    fill: transparent;
+                    stroke: #94892b;
+                    stroke-dasharray:0px;
+                    stroke-dashoffset: 0px;
+                    stroke-width: .03em;
+                }
             }
         }
         @include mobile(600px){

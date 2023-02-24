@@ -5,6 +5,28 @@ $logo:'Samarkan';
 $secFont:'Novante';
 $headingFont:'forgue';
 
+:root{
+    // --primTxt:#2C1B27;
+    // --secTxt:#5A4A55;
+    // --clr1:#D0403F;
+    // --clr2:#054B66;
+    // --clr3:#E58924;
+    // --clr4:#D8C19A;
+    --gold:#94892B;
+
+    //new colors
+    --bg:#fff3dc;
+    --headingClr:#a54505;
+    --primTxt:#21111C;
+    --secTxt:#741524;
+    --action:#791F2A;
+    --clr1:#AF3139;
+    --clr2:#3CA5B4;
+    --clr3:#B88230;
+    --clr4:#D6BC6D;
+    --svg:#C8526D;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +42,7 @@ body {
   }
 main{
     width:100%;
+    background-color:var(--bg) ;
     // min-height: 100vh;
 }
 svg{
@@ -27,6 +50,9 @@ svg{
     height: 10vmax;
 }
 
+a{
+    text-decoration: none;
+}
 // footer mixin
 @mixin flexprop{
     display: flex;
@@ -43,15 +69,7 @@ svg{
 
 
 //colors
-:root{
-    --primTxt:#2C1B27;
-    --secTxt:#5A4A55;
-    --clr1:#D0403F;
-    --clr2:#054B66;
-    --clr3:#E58924;
-    --clr4:#D8C19A;
-    --gold:#94892B;
-}
+
 @mixin mobile($size){
     @media (max-width:$size){
         @content;

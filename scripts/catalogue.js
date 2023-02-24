@@ -17,12 +17,13 @@ tl.set("#m-catalogue",{
     scale:1
 })
 
-document.querySelector("#m-catalogueBtn i").addEventListener("click",()=>{
+document.querySelector("#m-catalogueBtn").addEventListener("click",()=>{
     tl.play();
 elmEnter(cards[index])
+console.log('hello')
 
 })
-document.querySelector("#m-closeBtn i").addEventListener("click",()=>{
+document.querySelector("#m-closeBtn").addEventListener("click",()=>{
         tl.reverse();
     })
 

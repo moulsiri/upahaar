@@ -1,0 +1,104 @@
+@import './util';
+
+.wsvg{
+    position: absolute;
+    width: 20vmax;
+    height: 20vmax;
+    // background-color: green;
+    path{
+        fill: var(--svg);
+        // stroke:var(--svg);
+        stroke: transparent;
+    }
+}
+#wsvg1{
+    bottom: -30vmin;
+    right:5vmax;
+    // width: 30vmax;
+    // height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+#wsvg2{
+    top: -15vmin;
+    right:-9vmax;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+#wsvg3{
+    left: -12vmax;
+    top:5vmin;
+    path{
+        fill: #e92b5741;
+    }
+
+}
+#wsvg4{
+    bottom:-15vmin;
+    right: 0vmin;
+    width: 25vmax;
+    height: 25vmax;
+    path{
+        fill: #e92b576b;
+    }
+
+}
+#wsvg9{
+    right:0;
+    bottom:-15vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+
+}
+#wsvg88{
+    right:30vmax;
+    top:10vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg1{
+    right:15vmax;
+    bottom:10vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg2{
+    left:5vmax;
+    top:5vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg3{
+    path{
+        fill: #e92b5749;
+    }
+}
+.hwsvg4{
+    bottom:2vmin;
+    left: 16vmax;
+    path{
+        fill: #e92b5749;
+    }
+}

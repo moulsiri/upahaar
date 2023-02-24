@@ -39,6 +39,8 @@
                 line-height: 6vw;
                 width: 100%;
                 color:var(--primTxt);
+                position: relative;
+                z-index: 99;
                 @include mobile(783px){
                     font-size: 8vw;
                     line-height: 8vw;
@@ -73,27 +75,37 @@
                 position: absolute;
                 left:-20%;
                 bottom:-20%;
+                
+                path{
+                    fill: transparent;
+                    stroke: #94892b;
+                    stroke-dasharray:0px;
+                    stroke-dashoffset: 0px;
+                    stroke-width: .03em;
+
+                    
+                }
                
             }
             #m-svg2{
                 position: absolute;
                 right:-20%;
                 top:-20%;
-            }
-            svg{
-                    path{
-                        fill: transparent;
-                        stroke: #94892b;
-                        stroke-dasharray:0px;
-                        stroke-dashoffset: 0px;
-                        stroke-width: .03em;
+                
+                path{
+                    fill: transparent;
+                    stroke: #94892b;
+                    stroke-dasharray:0px;
+                    stroke-dashoffset: 0px;
+                    stroke-width: .03em;
 
-                        
-                    }
+                    
+                }
             }
         }
 
     }
+ 
 
 }
 
@@ -110,6 +122,7 @@
     right: 0;
     transform-origin: right;
     transform: rotateY(30deg);
+    scale: 1.5;
     img{
      height:100%;
      object-fit: contain;

@@ -129,9 +129,8 @@ export const loadingAnimaiton=()=>{
         duration:2,
         ease:'Power1.InOut'
     },'m')
-    .from("#m-h-txt svg path",{
-        strokeDasharray:"890px",
-        strokeDashoffset:"890px",
+    .from("#m-h-txt .wsvg",{
+        opacity:0,
         duration:1,
         stagger:.2,
         ease:'Power1.InOut'
@@ -163,6 +162,12 @@ export const scrollBased=()=>{
         duration:1.5,
         ease:"power1.easeInOut"
     },'i')
+    .from(".orderBtn",{
+        y:10,
+        opacity:0,
+        duration:1.5,
+        ease:"power1.easeInOut"
+    })
 
 
 let tl2=gsap.timeline({
