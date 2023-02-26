@@ -87,7 +87,9 @@ buttons.forEach((elm)=>{
 })
 
   
-
+window.addEventListener('popstate', function(event) {
+    return true;
+   });
 
 //animations
 loadingAnimaiton()

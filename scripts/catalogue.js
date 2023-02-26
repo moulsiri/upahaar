@@ -20,7 +20,6 @@ tl.set("#m-catalogue",{
 document.querySelector("#m-catalogueBtn").addEventListener("click",()=>{
     tl.play();
 elmEnter(cards[index])
-console.log('hello')
 
 })
 document.querySelector("#m-closeBtn").addEventListener("click",()=>{

@@ -6,6 +6,10 @@
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 2;
+    background-color: var(--bg);
+
+
     // background-color: yellow;
     @include mobile(600px){
         flex-direction: column-reverse;
@@ -57,6 +61,9 @@
                     width: 100%;
                     height: 100%;
                     object-fit: contain;
+                }
+                &:nth-child(4){
+                    top:0
                 }
             }
         }

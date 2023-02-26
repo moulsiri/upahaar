@@ -102,3 +102,41 @@
         fill: #e92b5749;
     }
 }
+#topArrow{
+    width: 2vmax;
+    height: 4vmax;
+    background-color:var(--action);
+    position: absolute;
+    bottom:10vmin;
+    right:10vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    cursor: pointer;
+    i{
+        color: #fff;
+        animation: moveUp 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite both;
+    }
+
+    #t-line{
+        width: .1em;
+        height: 3vmin;
+        margin-top: -1vmin;
+        background-color: #fff;
+        animation: moveUp 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite both;
+
+    }
+}
+@keyframes moveUp {
+    from{
+        transform: translate(0,10px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    
+}

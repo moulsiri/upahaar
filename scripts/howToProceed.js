@@ -8,8 +8,8 @@ export const howToProceedScroll=()=>{
     scrollTrigger:{
       start:'top 60%',
       scrub:true,
-      trigger:"#howToProceed",
       end: 'top 10%',
+      scroller:"#main",
       // markers:true,
       }
   })

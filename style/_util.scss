@@ -38,12 +38,22 @@ html,body{
     height: 100%;
 }
 body {
-    overflow-x: hidden;
+    // overflow-x: hidden;
   }
 main{
     width:100%;
     background-color:var(--bg) ;
     // min-height: 100vh;
+    padding-bottom: 100vh;
+
+
+}
+#elmWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg);
+    position: relative;
+    z-index: 3;
 }
 svg{
     width: 10vmax;

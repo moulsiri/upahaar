@@ -6,6 +6,10 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+    background-color: var(--bg);
+
+    z-index: 2;
+
     // background-color: red;
     #rTxt1{
         width: 30vmax;

@@ -150,6 +150,7 @@ export const scrollBased=()=>{
             scrub:true,
             trigger:"#hero",
             pin: "#hero",
+            end: "+=100%"
             }
     })
     tl.from('#m-h-txt p',{
@@ -176,6 +177,7 @@ let tl2=gsap.timeline({
         scrub:true,
         trigger:"#showcase",
         end: 'top 10%',
+        end: "+=100%"
         }
 
 })
@@ -185,7 +187,7 @@ let sPin=gsap.timeline({
         scrub:true,
         trigger:"#showcase",
         pin: "#showcase",
-        end: "+=" + window.innerHeight * 10,
+        end: "+=100%"
         }
 
 })

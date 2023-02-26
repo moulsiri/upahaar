@@ -4,10 +4,13 @@
 #hero{
     width:100%;
     min-height:100vh;
-    // background-color: red;
+    background-color: var(--bg);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 2;
+
     #m-h-lft{
         width: 60%;
         height: 100vh;

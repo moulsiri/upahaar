@@ -6,12 +6,18 @@
     width: 100%;
     @include flexprop;
     position: relative;
+    // padding-bottom: 100vh;
+    z-index: 2;
+    background-color: var(--bg);
+
 
     >#left{
         height: 50vh;
         width: 50%;
+        // background-color: yellow;
 
         >#centerleft{
+            // background-color: green;
             >img{
                 object-fit: contain;
             }
@@ -39,6 +45,7 @@
     >#right{
        height: 47vh;
        width: 50%;
+    //    background-color: red;
 
        >#centerright{
             >div{
