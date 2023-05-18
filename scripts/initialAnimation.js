@@ -195,12 +195,12 @@ let sPin=gsap.timeline({
     tl2         //one part completed
     .from("#m-mtexture",{
         bottom:'-100%',
-        ease:'expo.easeOut'
+        ease:'Expo.easeInOut'
     },'chng')
     .from("#m-video-container",{
         scaleX:0,
         transformOrigin:'right center',
-        ease:'expo.easeOut'
+        ease:'Expo.easeInOut'
     },'nbgn')
     .from("#showcase svg path",{
         strokeDasharray:"890px",
@@ -211,153 +211,154 @@ let sPin=gsap.timeline({
     },'nbgn')
     .from("#m-tLine",{
         width:0,
-        ease:'expo.easeOut'
+        ease:'Expo.easeInOut'
 
     },'nbgn')
     .from("#m-mainHeading .a-child",{
         y:100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'nbgn')
     .from("#videos-reel-container",{
         opacity:0,
         x:100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'nbgn')
     .to("#m-img-container .m-pics:nth-child(4)",{
         top:'0%',
-        ease:'expo.inOut'
+        ease:'Expo.easeInOut'
     },'nbgn')
     .from(".rt-txt-elm:nth-child(1) .a-child",{
         y:100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'nbgn')
     .from(".rt-txt-elm:nth-child(1) p",{
         opacity:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
 
     },'nbgn') 
     sPin  //changing videos
     .to("#videos-reel-container",{
         x:`-${shift}px`,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s')
     .to("#m-img-container .m-pics:nth-child(4)",{
         left:'-100%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s')
     .to(".rt-txt-elm:nth-child(1) .a-child",{
         y:-100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s') 
     .to(".rt-txt-elm:nth-child(1) p",{
         opacity:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s')  ///next rotation
     .to('.vElm:nth-child(2)',{
         opacity:1,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s1')
     .to(".m-pics:nth-child(3)",{
         top:'0%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s1')
     .set(".rt-txt-elm:nth-child(2)",{
         top:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s1')
     .from(".rt-txt-elm:nth-child(2) .a-child",{
         y:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s1')/////changing video
     .to("#videos-reel-container",{
         x:`-${shift*2}px`,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s11')
     .to("#m-img-container .m-pics:nth-child(3)",{
         left:'-100%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s11')
     .to(".rt-txt-elm:nth-child(2) .a-child",{
         y:-100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s11') 
     .to(".rt-txt-elm:nth-child(2) p",{
         opacity:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s11') //-------------->
     .to('.vElm:nth-child(3)',{
         opacity:1,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s2')
     .to(".m-pics:nth-child(2)",{
         top:'0%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s2')
     .set(".rt-txt-elm:nth-child(3)",{
         top:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s2')
     .from(".rt-txt-elm:nth-child(3) .a-child",{
         y:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s2')
     /////changing video
     .to("#videos-reel-container",{
         x:`-${shift*3+10}px`,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s21')
     .to("#m-img-container .m-pics:nth-child(2)",{
         left:'-100%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s21')
     .to(".rt-txt-elm:nth-child(3) .a-child",{
         y:-100,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s21') 
     .to(".rt-txt-elm:nth-child(3) p",{
         opacity:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s21') //-------------->
     .to('.vElm:nth-child(4)',{
         opacity:1,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2
     },'s3')
     .to(".m-pics:nth-child(1)",{
         top:'0%',
-        ease:'expo.inOut',
+        ease:'Expo.easeInOut',
         duration:2
     },'s3')
     .set(".rt-txt-elm:nth-child(4)",{
-        top:0
+        top:0,
+        ease:'Power1.easeInOut'
     },'s3')
     .from(".rt-txt-elm:nth-child(4) .a-child",{
         y:0,
-        ease:'power1.inOut',
+        ease:'Power1.easeInOut',
         duration:2,
         onComplete:()=>{
             document.querySelector("#hero").style.height=document.querySelector("#hero").offsetHeight-window.innerHeight
