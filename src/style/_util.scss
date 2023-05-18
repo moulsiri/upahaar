@@ -1,0 +1,122 @@
+
+//fonts
+$genFont:'Montserrat';
+$logo:'Samarkan';
+$secFont:'Novante';
+$headingFont:'forgue';
+
+:root{
+    // --primTxt:#2C1B27;
+    // --secTxt:#5A4A55;
+    // --clr1:#D0403F;
+    // --clr2:#054B66;
+    // --clr3:#E58924;
+    // --clr4:#D8C19A;
+    --gold:#94892B;
+
+    //new colors
+    --bg:#fff3dc;
+    --headingClr:#a54505;
+    --primTxt:#21111C;
+    --secTxt:#741524;
+    --action:#791F2A;
+    --clr1:#AF3139;
+    --clr2:#3CA5B4;
+    --clr3:#B88230;
+    --clr4:#D6BC6D;
+    --svg:#C8526D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: $genFont;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    // overflow-x: hidden;
+  }
+main{
+    width:100%;
+    background-color:var(--bg) ;
+    // min-height: 100vh;
+    padding-bottom: 100vh;
+
+
+}
+#elmWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg);
+    position: relative;
+    z-index: 3;
+}
+svg{
+    width: 10vmax;
+    height: 10vmax;
+}
+
+a{
+    text-decoration: none;
+}
+// footer mixin
+@mixin flexprop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin positon($tp,$lt){
+    position: absolute;
+    top: $tp;
+    left: $lt;
+}
+// end footer
+
+
+//colors
+
+@mixin mobile($size){
+    @media (max-width:$size){
+        @content;
+    }
+}
+
+@font-face {
+    font-family: "forgue";
+    src: url('../assets/fonts/Unnamed-Regular.otf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Samarkan";
+    src: url('../assets/fonts/SAMAN__.TTF');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Novante';
+    src: url('../assets/fonts/Novante.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-SemiBold.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+
+

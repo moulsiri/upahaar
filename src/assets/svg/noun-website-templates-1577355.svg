@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700pt" height="700pt" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style>
+  path{
+    stroke:#fff;
+  }
+  </style>
+  
+ </defs>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m74.299 78.841c0 0.60407-0.48968 1.0938-1.0938 1.0938l-60.595 6.97e-4c-0.60407 0-1.0938-0.48968-1.0938-1.0938l-6.97e-4 -45.412c0-0.60407 0.48968-1.0951 1.0938-1.0951h60.595c0.60407 0 1.0938 0.49107 1.0938 1.0951z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m11.516 38.901h62.783" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m15.277 36.028h0.82101" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m17.466 36.028h0.82101" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m19.654 36.028h0.82101" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m19.098 46.15h16.025v16.025h-16.025z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m39.784 47.107h27.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m39.784 51.484h27.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m39.784 55.861h27.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m39.784 60.238h27.25" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m18.098 67.625h48.936" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m18.098 72.833h48.936" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.6"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m20.47 29.052v-1.5053c0-0.60407 0.48968-1.0938 1.0938-1.0938h60.595c0.60407 0 1.0938 0.48968 1.0938 1.0938l6.97e-4 45.413c0 0.60407-0.48968 1.0938-1.0938 1.0938h-8.0643" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m24.231 30.146h0.82101" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m26.42 30.146h0.82101" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m28.608 30.146h0.82101" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m25.741 22.349v-1.5039c0-0.60407 0.48968-1.0938 1.0938-1.0938l60.596-6.97e-4c0.60407 0 1.0938 0.48968 1.0938 1.0938v45.412c0 0.60407-0.48968 1.0938-1.0938 1.0938h-3.6872" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m29.503 23.444h0.81962" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m31.692 23.444h0.81962" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <path transform="matrix(5.6 0 0 5.6 70 3.979e-14)" d="m33.879 23.444h0.82171" fill="none" stroke="#000" stroke-miterlimit="10"/>
+ <g>
+  
+ </g>
+</svg>

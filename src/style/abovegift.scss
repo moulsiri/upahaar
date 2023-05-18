@@ -1,0 +1,357 @@
+
+@import './util';
+
+#abovegift{
+    min-height: 100vh;
+    width: 100%;
+    @include flexprop;
+    position: relative;
+    // padding-bottom: 100vh;
+    z-index: 2;
+    background-color: var(--bg);
+
+
+    >#left{
+        height: 50vh;
+        width: 50%;
+        // background-color: yellow;
+
+        >#centerleft{
+            // background-color: green;
+            >img{
+                object-fit: contain;
+            }
+
+            >#one{
+                height: 37vw;
+                @include positon(22%,4%);
+                z-index: 99;
+            }
+
+            >#two{
+                 height: 34vw;
+                 @include positon(23%,25%);
+                 z-index: 95;
+            }
+            >#three{
+                 height: 33vw;
+                @include positon(17%,16%);
+                z-index: 3;
+                filter: drop-shadow(5px 5px 100px rgb(204, 59, 59));
+            }
+        }
+    }
+
+    >#right{
+       height: 47vh;
+       width: 50%;
+    //    background-color: red;
+
+       >#centerright{
+            >div{
+                width: 35vw;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end; 
+                // text-transform: uppercase;
+
+                >h1{
+                    margin-top: 4vw;
+                    font-size: 5.5vw;
+                    font-family: $headingFont;
+                    font-weight: 200;
+                    color: var(--primTxt);
+                    line-height: 3vw;
+                    position: relative;
+                    z-index: 99;
+                }
+
+            >p{
+                height:fit-content;
+                margin-top: 4vw;
+                font-size: 0.8vw;
+                text-transform: capitalize;
+                font-family: $genFont;
+                line-height: 1.2vw;
+                color: var(--secTxt);
+                text-align: right;
+                z-index: 99;
+
+            }
+
+            &:nth-child(1){
+                margin-top: -10rem;
+                margin-left: -23vw;
+                width: 60vw;
+            }
+            }
+       }
+    }
+}
+
+// @include mobile(2685px){
+//       #abovegift{
+//         min-height: 50vmax;
+//       }
+// }
+
+// @include mobile(2314px){
+//       #abovegift{
+//         min-height: 52vmax;
+//       }
+// }
+
+// @include mobile(2098px){
+//       #abovegift{
+//         min-height: 54vmax;
+//       }
+// }
+
+// @include mobile(1865px){
+//       #abovegift{
+//         min-height: 55vmax;
+        
+//         >#right{
+//         >#centerright{
+//             >div{
+//                 >button{
+//                     font-size: 0.9vw;
+//                 }
+
+//                 >p{
+//                     font-size: 0.8vw;
+//                 }
+//             }
+//         }
+//         }
+//       }
+// }
+
+
+
+// @include mobile(1700px){
+//       #abovegift{
+//         min-height: 50vmax;
+
+//         >#left{
+//             height: 57vw;
+//         }
+
+//         >#right{
+//            height: 55vw;
+//         }
+//       }
+// }
+
+
+// @include mobile(1548px){
+//       #abovegift{
+//         min-height: 54vw;
+
+//         >#left{
+//             height: 58vw;
+//         }
+
+//         >#right{
+//            height: 58vw;
+//         }
+//       }
+// }
+
+@include mobile(1280px){
+    #abovegift > #right > #centerright > div:nth-child(1) {
+    margin-top: 4rem;
+}
+}
+
+
+@include mobile(600px){
+    #abovegift{
+        flex-direction: column;
+
+        >#left{
+            width: 100%;
+            height: 79vw;
+
+            >#centerleft{
+                 >#one{
+                    height: 65vw;
+                    top: 8%;
+                    left: 16%;
+                 }
+
+                 >#two{
+                    height: 63vw;
+                    top: 7%;
+                    left: 52%;
+                 }
+
+                 >#three{
+                    height: 56vw;
+                    top: 6%;
+                    left: 38%;
+                 }
+            }
+        }
+
+        >#right{
+            height: 75vh;
+            
+            >#centerright{
+                >div{
+                     align-items: center;
+                     width: 56vw;
+                     
+                    h1{
+                        font-size: 8.1vw;
+                    }
+
+                    p{
+                        font-size: 2.3vw;
+                        line-height: 3vw;
+                        text-align: center;
+                    }
+
+                     &:nth-child(1){
+                        margin-right: -1vw;
+                        width:80vw;
+                     }
+
+                     >button{
+                        font-size: 2vw;
+                     }
+                }
+            }
+        }
+    }
+}
+
+// @include mobile(821px){
+//     #abovegift{
+//         // min-height: 69vw;
+//         min-height: 64vw;
+//         >#left{
+//             >#centerleft{
+//                >#three{
+//                 top: 20%;
+//                }
+//             }
+
+//         }
+
+//         >#right{
+//             >#centerright{
+//                 >div{
+
+                    
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @include mobile(913px){
+//     #abovegift{
+//         >#left{
+//             >#centerleft{
+//                 >#one{
+//                     top:18%;
+//                 }
+
+//                 >#two{
+//                     top:18%;
+//                 }
+//             }
+//         }
+
+//         >#right{
+//             height: 64vw;
+//             >#centerright{
+//                 >div{
+//                     >h1{
+//                        font-size: 5.4vw;
+//                     }
+//                     &:nth-child(1){
+//                         margin-top: 4rem;
+//                     }
+
+//                     >button{
+//                         font-size: 1.3vw;
+//                     }
+
+//                     >p{
+//                         font-size: 1vw;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @include mobile(541px){
+//     #abovegift{
+//         flex-direction: column;
+
+//         >#left{
+//             width: 100%;
+//             height: 66vh;
+
+//             >#centerleft{
+//                  >#one{
+//                     height: 65vw;
+//                     top: 20%;
+//                     left: 16%;
+                  
+//                  }
+
+//                  >#two{
+//                     height: 60vw;
+//                     top: 23%;
+//                     left: 52%;
+//                  }
+
+//                  >#three{
+//                     height: 56vw;
+//                     top: 18%;
+//                     left: 38%;
+//                  }
+//             }
+//         }
+
+//         >#right{
+//             height: 88vh;
+//             width: 63vw;
+            
+//             #centerright{
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 flex-direction: column;
+
+//                 >div{
+//                      align-items: center;
+//                     width: 56vw;
+
+//                     >h1{
+//                         margin-top: 3vw;
+//                         font-size: 7.5vw;
+//                     }
+
+//                      &:nth-child(1){
+//                         margin-left: -1vw;
+//                         width: 75vw;
+//                      }
+
+//                      >button{
+//                         font-size: 2vw;
+//                      }
+
+//                      >p{
+//                         font-size: 2vw;
+//                      }
+//                 }
+//             }
+//         }
+//     }
+// }
+

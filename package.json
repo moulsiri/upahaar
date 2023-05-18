@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://moulsiri.github.io/upahaar",
+  "homepage": "https://moulsiri.github.io/upahaar/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

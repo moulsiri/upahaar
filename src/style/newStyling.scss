@@ -1,0 +1,142 @@
+@import './util';
+
+.wsvg{
+    position: absolute;
+    width: 20vmax;
+    height: 20vmax;
+    // background-color: green;
+    path{
+        fill: var(--svg);
+        // stroke:var(--svg);
+        stroke: transparent;
+    }
+}
+#wsvg1{
+    bottom: -30vmin;
+    right:5vmax;
+    // width: 30vmax;
+    // height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+#wsvg2{
+    top: -15vmin;
+    right:-9vmax;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+#wsvg3{
+    left: -12vmax;
+    top:5vmin;
+    path{
+        fill: #e92b5741;
+    }
+
+}
+#wsvg4{
+    bottom:-15vmin;
+    right: 0vmin;
+    width: 25vmax;
+    height: 25vmax;
+    path{
+        fill: #e92b576b;
+    }
+
+}
+#wsvg9{
+    right:0;
+    bottom:-15vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+
+}
+#wsvg88{
+    right:30vmax;
+    top:10vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg1{
+    right:15vmax;
+    bottom:10vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg2{
+    left:5vmax;
+    top:5vmin;
+    width: 30vmax;
+    height: 30vmax;
+    path{
+        fill: #ee894681;
+        
+    }
+}
+.hwsvg3{
+    path{
+        fill: #e92b5749;
+    }
+}
+.hwsvg4{
+    bottom:2vmin;
+    left: 16vmax;
+    path{
+        fill: #e92b5749;
+    }
+}
+#topArrow{
+    width: 2vmax;
+    height: 4vmax;
+    background-color:var(--action);
+    position: absolute;
+    bottom:10vmin;
+    right:10vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    cursor: pointer;
+    i{
+        color: #fff;
+        animation: moveUp 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite both;
+    }
+
+    #t-line{
+        width: .1em;
+        height: 3vmin;
+        margin-top: -1vmin;
+        background-color: #fff;
+        animation: moveUp 1s cubic-bezier(0.075, 0.82, 0.165, 1) infinite both;
+
+    }
+}
+@keyframes moveUp {
+    from{
+        transform: translate(0,10px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    
+}
